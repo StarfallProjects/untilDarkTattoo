@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+	{{ partial "head.html" . }}
+<body class="section">
+	{{ partial "header.html" . }}
+	<main>
+    {{ range .Pages }}
+    	<a href="{{ .Permalink }}" class="tile-link">
+        	<div class="tile">
+        		<!--<img src={{ .Param "coverImage" }} /> -->
+        		<img src="{{ .Params.coverImageLeft }}" />
+                <span>{{ .Title }}</span>
+                <img src="{{ .Params.coverImageRight }}" />
+        	</div>
+     	</a>
+    {{ end }}
+	</main>
+	{{ partial "footer.html" . }}
+	
+</body>
+</html>

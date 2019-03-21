@@ -1,0 +1,158 @@
+@import url("reset.css");
+
+html, body {
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	height: 100%;
+	justify-content: space-between;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 48px;
+	padding: 15px 0 20px 0;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 24px;
+	padding: 5px 0 5px 0;
+	text-align: center;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	margin-top: 10px;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	width: 100%;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:visited {
+	color: white;
+}
+
+header {
+	background-color: black;
+}
+
+main {
+	text-align: center;
+	margin-left: 10%;
+	width: 80%;
+}
+
+nav {
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	width: 100%;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav a::after {
+	content: " | ";
+}
+
+nav a:last-of-type::after {
+	content: "";
+}
+
+p {
+	margin-top: 16px;
+}
+
+.tile {
+	align-items: center;
+	background-color: white;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	max-height: 200px;
+	min-height: 200px;
+	max-width: 100%;
+	min-width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+	.tile {
+		font-size: 16px;
+	}
+}
+@media screen and (min-width: 401px) {
+	.tile {
+		font-size: 24px;
+	}
+}
+
+.tile img {
+	max-height: 100%;
+	max-width: 33%;
+}
+
+.tile-link {
+	color: white;
+	text-decoration: none;
+}
+
+
+#close {
+	font-weight: bold;
+	position: absolute;
+	right: 5px;
+	top: 3px;
+}
+
+#gal {
+	border:0;
+	width:100%;
+}
+
+#home {
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 60%;
+}
+
+#IE {
+	background-color: white;
+	border-radius: 5px;
+	display: none;
+	margin: 10% 25% 0 25%;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+	z-index: 9999;
+
+}
+
+#IE-img {
+	height: 50px;
+}

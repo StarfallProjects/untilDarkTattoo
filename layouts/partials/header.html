@@ -1,0 +1,11 @@
+	<header>
+		<h1>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Page.Title }}{{ end }}</h1>
+		<nav class="home-nav">
+			{{ if not .IsHome }}<a href="{{ .Site.BaseURL }}">Home</a>{{ end }}
+			{{ range .Site.Sections.ByWeight }}
+				{{ if ne .Title $.Page.Title }}
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+				{{ end }}
+			{{ end }}
+		</nav>
+	</header>

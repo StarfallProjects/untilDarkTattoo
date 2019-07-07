@@ -156,3 +156,9 @@ p {
 #IE-img {
 	height: 50px;
 }
+
+#news-widget {
+	background-color:white;
+	margin-left: 10%;
+	width: 80%;
+}

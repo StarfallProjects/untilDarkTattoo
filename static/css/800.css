@@ -85,7 +85,6 @@ p {
 	margin-top: 16px;
 }
 
-
 .tile {
 	align-items: center;
 	background-color: white;
@@ -104,6 +103,12 @@ p {
 	.tile {
 		font-size: 18px;
 	}
+
+	#news-widget {
+		background-color:white;
+		margin-left: 10%;
+		width: 80%;
+	}
 	
 }
 
@@ -111,10 +116,22 @@ p {
 	.tile {
 		font-size: 24px;
 	}
+
+	#news-widget {
+		background-color:white;
+		margin-left: 10%;
+		width: 80%;
+	}
 }
 @media screen and (min-width: 1350px) {
 	.tile {
 		font-size: 36px;
+	}
+
+	#news-widget {
+		background-color:white;
+		margin-left: 35%;
+		width: 30%;
 	}
 }
 
@@ -166,4 +183,5 @@ p {
 #IE-img {
 	height: 50px;
 }
+
 

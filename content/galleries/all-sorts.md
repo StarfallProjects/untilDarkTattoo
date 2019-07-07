@@ -12,4 +12,4 @@ layout: work
 weight: 1
 ---
 
-<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/6af985ea41e651529a241b8b63f62a5d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" id="gal"></iframe>
+<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/6af985ea41e651529a241b8b63f62a5d.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" id="gal"></iframe>

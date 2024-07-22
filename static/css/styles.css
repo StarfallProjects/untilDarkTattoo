@@ -1,0 +1,40 @@
+@import url("reset.css");
+
+html, body {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    margin: 1em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 1em 0 2em 0;
+    text-align: center;
+}
+
+.intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 20%;
+    text-align: center;
+    width: 60%;
+}
+
+.contactEmail {
+    margin: 1em;
+}
+
+.comingSoon {
+    font-size: 3em;
+    margin: 1em 20%;
+    text-align: center;
+    width: 60%;
+}
